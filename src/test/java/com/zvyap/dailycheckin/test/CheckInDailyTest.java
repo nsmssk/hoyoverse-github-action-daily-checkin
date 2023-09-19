@@ -25,6 +25,8 @@ public class CheckInDailyTest {
                 CheckInAction.builder()
                         .token(HoyoToken.of(System.getenv("USER_1_ID"), System.getenv("USER_1_TOKEN")))
                         .game(GameType.HONKAI_STAR_RAIL)
+                        .game(GameType.GENSHIN_IMPACT)
+                        .game(GameType.HONKAI_IMPACT_3RD)
                         .build()
 
 
