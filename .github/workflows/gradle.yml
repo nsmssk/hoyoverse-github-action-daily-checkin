@@ -38,3 +38,5 @@ jobs:
       env:
         USER_1_ID: ${{ secrets.TOKEN_ID_1 }}
         USER_1_TOKEN: ${{ secrets.TOKEN_1 }}
+        USER_2_ID: ${{ secrets.TOKEN_ID_LUCI }}
+        USER_2_TOKEN: ${{ secrets.TOKEN_LUCI }}
