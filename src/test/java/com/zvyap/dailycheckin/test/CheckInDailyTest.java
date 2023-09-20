@@ -47,7 +47,7 @@ public class CheckInDailyTest {
                 CheckInAction.builder()
                         .token(HoyoToken.of(System.getenv("USER_3_ID"), System.getenv("USER_3_TOKEN"))))
                         .webhook(WebhookInfo.builder()
-                                 .url(Sytem.getenv("WEBHOOK_URL")
+                                 .url(System.getenv("WEBHOOK_URL")
                                  .avatar()
                                  .name("HoyoDaily")
                                  .build())   
