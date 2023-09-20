@@ -48,7 +48,7 @@ public class CheckInDailyTest {
                         .token(HoyoToken.of(System.getenv("USER_3_ID"), System.getenv("USER_3_TOKEN"))))
                         .webhook(WebhookInfo.builder()
                                  .url(System.getenv("WEBHOOK_URL")
-                                 .avatar()
+                                 .avatar("https://githhub.githubassets.com/images/modules/logos_page/GitHub-Mark.png")
                                  .name("HoyoDaily")
                                  .build())   
                         .game(GameType.GENSHIN_IMPACT)
