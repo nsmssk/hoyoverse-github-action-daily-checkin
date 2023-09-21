@@ -61,7 +61,7 @@ public class CheckInDailyTest {
                                  .name("HoyoDaily")
                                  .build())
                         .game(GameType.GENSHIN_IMPACT)
-                        .build(),
+                        .build()
 
         ));
     }
