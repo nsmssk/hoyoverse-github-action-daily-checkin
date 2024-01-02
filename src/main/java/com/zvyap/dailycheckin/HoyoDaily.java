@@ -63,7 +63,7 @@ public class HoyoDaily {
         System.out.flush();
     }
 
-    private static void webhookAction(DailyCheckInFeature feature, WebhookInfo info, GameType type, HoyoToken token, HoyoDailyCheckInSignResponse response, HoyoverseAPIException exception) {
+    private static void webhookAction(DailyCheckInFeature feature, WebhookInfo info, GameType type, HoyoTokenV2 token, HoyoDailyCheckInSignResponse response, HoyoverseAPIException exception) {
         if (info == null) {
             return;
         }
