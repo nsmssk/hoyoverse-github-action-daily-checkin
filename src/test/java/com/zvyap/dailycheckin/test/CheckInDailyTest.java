@@ -6,7 +6,7 @@ import com.zvyap.dailycheckin.WebhookInfo;
 import com.zvyap.hoyoapi.APIEnvironment;
 import com.zvyap.hoyoapi.APILocale;
 import com.zvyap.hoyoapi.GameType;
-import com.zvyap.hoyoapi.HoyoToken;
+import com.zvyap.hoyoapi.HoyoTokenV2;
 import com.zvyap.hoyoapi.HoyoverseAPI;
 import com.zvyap.hoyoapi.feature.daily.DailyCheckInFeature;
 import org.junit.jupiter.api.Test;
@@ -24,7 +24,7 @@ public class CheckInDailyTest {
 
            
                 CheckInAction.builder()
-                        .token(HoyoToken.of(System.getenv("USER_3_ID"), System.getenv("USER_3_TOKEN")))
+                        .token(HoyoTokenV2.of(System.getenv("USER_3_ID"), System.getenv("USER_3_TOKEN")))
                         .webhook(WebhookInfo.builder()
                                  .url(System.getenv("WEBHOOK_URL"))
                                  .avatar("https://githhub.githubassets.com/images/modules/logos_page/GitHub-Mark.png")
