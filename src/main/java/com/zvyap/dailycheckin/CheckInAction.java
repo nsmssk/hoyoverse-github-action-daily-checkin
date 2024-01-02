@@ -1,7 +1,7 @@
 package com.zvyap.dailycheckin;
 
 import com.zvyap.hoyoapi.GameType;
-import com.zvyap.hoyoapi.HoyoToken;
+import com.zvyap.hoyoapi.HoyoTokenV2;
 import lombok.Builder;
 import lombok.Singular;
 import lombok.Value;
