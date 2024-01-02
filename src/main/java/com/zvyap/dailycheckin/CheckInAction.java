@@ -12,7 +12,7 @@ import java.util.List;
 @Builder
 public class CheckInAction {
 
-    private final HoyoTokenV2 token;
+    private final HoyoToken token;
     @Singular
     private final List<GameType> games;
     private final WebhookInfo webhook;
