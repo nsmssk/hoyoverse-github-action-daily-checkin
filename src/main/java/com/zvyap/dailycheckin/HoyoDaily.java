@@ -7,7 +7,7 @@ import club.minnced.discord.webhook.send.WebhookMessageBuilder;
 import com.zvyap.hoyoapi.APIEnvironment;
 import com.zvyap.hoyoapi.GameType;
 import com.zvyap.hoyoapi.HoyoGameRole;
-import com.zvyap.hoyoapi.HoyoToken;
+import com.zvyap.hoyoapi.HoyoTokenV2;
 import com.zvyap.hoyoapi.HoyoverseAPI;
 import com.zvyap.hoyoapi.exception.AlreadyCheckInException;
 import com.zvyap.hoyoapi.exception.HoyoverseAPIException;
