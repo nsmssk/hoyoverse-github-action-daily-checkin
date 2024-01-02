@@ -6,7 +6,7 @@ import com.zvyap.dailycheckin.WebhookInfo;
 import com.zvyap.hoyoapi.APIEnvironment;
 import com.zvyap.hoyoapi.APILocale;
 import com.zvyap.hoyoapi.GameType;
-import com.zvyap.hoyoapi.HoyoTokenV2;
+import com.zvyap.hoyoapi.HoyoToken;
 import com.zvyap.hoyoapi.HoyoverseAPI;
 import com.zvyap.hoyoapi.feature.daily.DailyCheckInFeature;
 import org.junit.jupiter.api.Test;
