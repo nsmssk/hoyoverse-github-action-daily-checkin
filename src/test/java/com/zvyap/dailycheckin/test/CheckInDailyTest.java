@@ -23,6 +23,29 @@ public class CheckInDailyTest {
         HoyoDaily.checkIn(feature, List.of(
 
            
+               CheckInAction.builder()
+                        .token(HoyoToken.of(System.getenv("USER_1_ID"), System.getenv("USER_1_TOKEN")))
+                        .webhook(WebhookInfo.builder()
+                                 .url(System.getenv("WEBHOOK_URL"))
+                                 .avatar("https://githhub.githubassets.com/images/modules/logos_page/GitHub-Mark.png")
+                                 .name("HoyoDaily")
+                                 .build())
+                        .game(GameType.HONKAI_STAR_RAIL)
+                        .game(GameType.GENSHIN_IMPACT)
+                        .game(GameType.HONKAI_IMPACT_3RD)
+                        .build(),
+                 CheckInAction.builder()
+                        .token(HoyoToken.of(System.getenv("USER_2_ID"), System.getenv("USER_2_TOKEN")))
+                        .webhook(WebhookInfo.builder()
+                                 .url(System.getenv("WEBHOOK_URL"))
+                                 .avatar("https://githhub.githubassets.com/images/modules/logos_page/GitHub-Mark.png")
+                                 .name("HoyoDaily")
+                                 .build())
+                        .game(GameType.HONKAI_STAR_RAIL)
+                        .game(GameType.GENSHIN_IMPACT)
+                        .game(GameType.HONKAI_IMPACT_3RD)
+                        .build(),
+
                 CheckInAction.builder()
                         .token(HoyoToken.of(System.getenv("USER_3_ID"), System.getenv("USER_3_TOKEN")))
                         .webhook(WebhookInfo.builder()
@@ -31,6 +54,15 @@ public class CheckInDailyTest {
                                  .name("HoyoDaily")
                                  .build())
                         .game(GameType.HONKAI_STAR_RAIL)                     
+                        .build(),
+                  CheckInAction.builder()
+                        .token(HoyoToken.of(System.getenv("USER_4_ID"), System.getenv("USER_4_TOKEN")))
+                        .webhook(WebhookInfo.builder()
+                                 .url(System.getenv("WEBHOOK_URL"))
+                                 .avatar("https://githhub.githubassets.com/images/modules/logos_page/GitHub-Mark.png")
+                                 .name("HoyoDaily")
+                                 .build())
+                        .game(GameType.GENSHIN_IMPACT)
                         .build()
                   
 
