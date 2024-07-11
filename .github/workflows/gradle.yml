@@ -11,8 +11,8 @@ on:
   # Allow manual start
   workflow_dispatch:
   # Run job on 16:15UTC/00:15CST daily
-  schedule:
-  - cron: "15 16 * * *"
+  #schedule:
+  #- cron: "15 16 * * *"
   
 permissions:
   contents: read
